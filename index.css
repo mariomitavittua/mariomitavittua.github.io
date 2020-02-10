@@ -27,13 +27,13 @@ body {
 }
 th {
 	font-weight: bold;
+	background: grey;
 }
 
 th.full {
 	text-align: center;
 	letter-spacing: 0.5px;
 	border: 1px solid black;
-	border-radius: 4px;
 }
 
 td, th, tr {
@@ -42,10 +42,6 @@ td, th, tr {
 	background: #ffffff;
 }
 
-td, th {
-	border-radius: 4px;
-}
-
-tr:hover {
+td:hover {
     background-color: cyan;
 }
