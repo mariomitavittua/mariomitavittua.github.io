@@ -52,3 +52,6 @@ table {
 	border: 1px solid black;
     	background-color: black;
 }
+tr {
+      	background-color: white;
+}
