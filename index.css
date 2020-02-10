@@ -27,7 +27,8 @@ body {
 }
 th {
 	font-weight: bold;
-	background: grey;
+	background: black;
+	color: white;
 }
 
 th.full {
@@ -43,5 +44,8 @@ td, th, tr {
 }
 
 td:hover {
-    background-color: cyan;
+    	background-color: cyan;
+}
+table {
+	border: 1px solid black;
 }
