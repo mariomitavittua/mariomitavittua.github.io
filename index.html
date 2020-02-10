@@ -1,41 +1,10 @@
 <!doctype html>
 <meta charset=utf-8>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--
-				  ||   ||			  ||   ||
- _______			 ________			 ________
-|       \			/        \			/        \
-|  |  | |			|        |			|        |
-|_______/			|  |  |  |			|  |  |  |
-|				|  |  |  |			|  |  |  |
-|				|        |			|        |
-|				\________/			\________/
--->
 <html>
 <head>
 
-<title>splörö</title>
-<!-- img, iframe, h2, p, a, button,  -->
-<style>
-h1,h2,p,a, .shake {
-  animation: shake 0.5s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(2deg); }
-  50% { transform: translate(-1px, 2px) rotate(-2deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-2deg); }
-  80% { transform: translate(-1px, -1px) rotate(2deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-2deg); }
-}
-</style>
+<title>Tuukka Penttinen</title>
 
 <link rel="icon" type="image/vnd.microsoft.icon"
      href="..image\favicon.ico" />
@@ -45,150 +14,22 @@ h1,h2,p,a, .shake {
 
 <body>
 
-<script>
-function poo() {
-  alert("tää on aika turha nappula");
-}
-</script>
-
-<script>
-function hakemisto() {
-  var x = document.getElementById("hak");{
-    x.style.display = "block";
-  }
-    var x = document.getElementById("mai");
-    x.style.display = "none";
-    var x = document.getElementById("mario");
-    x.style.display = "none";
-  }
-</script>
-
-<script>
-function mainos() {
-  var x = document.getElementById("mai");{
-    x.style.display = "block";
-  }
-  var x = document.getElementById("hak");
-    x.style.display = "none";
-    var x = document.getElementById("mario");
-    x.style.display = "none";
-  }
-</script>
-
-<script>
-function startTime() {
-  var today = new Date();
-  var h = today.getHours();
-  var m = today.getMinutes();
-  var s = today.getSeconds();
-  m = checkTime(m);
-  s = checkTime(s);
-  document.getElementById('txt').innerHTML =
-  h + ":" + m + ":" + s;
-  var t = setTimeout(startTime, 500);
-}
-function checkTime(i) {
-  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-  return i;
-}
-</script>
-
-<script type="text/javascript">
-<!--
-// Create an array of the links to choose from:
-var links = new Array();
-links[0] = "/sekasin/1.html";
-links[1] = "/sekasin/2.html";
-links[2] = "/sekasin/3.html";
-links[3] = "/sekasin/4.html";
-links[4] = "/sekasin/5.html";
-links[5] = "/sekasin/6.html";
-links[6] = "/sekasin/7.html";
-links[7] = "/sekasin/8.html";
-links[8] = "/sekasin/9.html";
-links[9] = "/sekasin/10.html";
-links[10] = "/sekasin/11.html";
-links[11] = "/sekasin/12.html";
-links[12] = "/sekasin/13.html";
-
-function random() {
-  // Chooses a random link:
-  var i = Math.floor(Math.random() * links.length);
-  // Directs the browser to the chosen target:
-  parent.location = links[i];
-  return false;
-}
-//-->
-</script>
 
 <div class=center>
-<font size="5"><h1>jepa</h1></font>
+<h1>Tuukka Penttinen</h1>
 </div>
 
-<body onload="startTime()">
-<div class=center>
-<font size="10"><div title="kellol" id="txt"></div></font>
-
-<div class=center>
-<br> 
-<button title="Hakemisto 19TIT sivuista" class="arial btn" onclick="hakemisto()">Hakemisto</button>	
-<button title="Mainos" class="arial btn" onclick="mainos()">Mainos</button>	
-<button title="Testi allertti" class="arial btn" onclick="poo()">Alertti</button>
-<button title="Korvaraiskaus varoitus" class="arial btn" onclick="seka()">Sekasin</button>
-</div>
-
-<script>
-function seka() {
-  location.replace("../sekasin/redirect")
-}
-</script>
-	
-	
-	
-	
-	
-	
-	
+<br/>
+<br/>
+<br/>
 <br/>
 
-<div class=center>
-<div id="mai" class=shake style="display:none">
-
-<a href="virus.html">
-<img src="image\nainen.gif" height=400, width=400>
-</a>
-<p>älä klikkaa mainoksia :-)</p>
+<div id="mk64">
+<img source src="image/mk64.png">
 </div>
-</div>
-
-<div class=center>
-
-<div  id="hak" style="display:none">
-<h2>Sivu hakemisto</h2>
-<p>jepa</p>
-<a href="http://10.6.128.133">133 </a>
-<br/>
-<a href="http://10.6.128.131">131 </a>
-<br/>
-<a href="http://10.6.128.129">129 </a>
-<br/> 
-<a href="http://10.6.128.124">124 </a>
-<br/> 
-<a href="http://10.6.128.121">121 </a>
-<br/> 
-<a href="http://10.6.128.120">120 </a>
-<br/> 
-<a href="http://10.6.128.118">118 </a>
-<br/> 
-<a href="http://10.6.128.115">115 </a>
-<br/> 
-<a href="http://10.6.128.114">114 </a>
-<br/> 
-</div>
-</div>
-
-<div id="mario">
-<img source src="image/tans.gif">
+	
+<div id="smk">
+<img source src="image/smk.png">
 </div>
 
 </body>
