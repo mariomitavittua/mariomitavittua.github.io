@@ -68,3 +68,7 @@ a:target{
     -moz-transition:background-color 1s ease-in;
     background-color: yellow;
 }
+@font-face {
+   font-family: emulogic;
+   src: url(EMULOGIC.TTF);
+}
