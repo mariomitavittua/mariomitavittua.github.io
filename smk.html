@@ -31,14 +31,8 @@ table {
 <body>
 
 <script>
-var text = "namex"; // change to window.location.search.slice(1);
-console.log(text);
-//text = "namex";
-[...document.querySelectorAll("td")].forEach((td)=>{
-  if(td.textContent==text){
-  td.parentElement.style.background = "yellow";
-  }
-});
+var srch = "#mc1"; // change to window.location.search;
+document.querySelector(srch).style.background = "yellow";
 </script>     
      
 <div class="center">
@@ -65,7 +59,7 @@ console.log(text);
     <th>LAP</th>
 </tr>
      
-<tr id="namex">
+<tr id="mc1">
     <th onclick="window.location='http://www.mariokart64.com/smk/coursep.php?cid=0';">Mario Circuit 1</th>
     <td onclick="window.location='/smk/mc1_10738';">1'07"38 ✔</td>
     <td>0'13"11</td>
