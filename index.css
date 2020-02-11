@@ -62,3 +62,9 @@ table {
 tr {
       	background-color: white;
 }
+a:target{
+    transition:background-color 1s ease-in;
+    -webkit-transition:background-color 1s ease-in;
+    -moz-transition:background-color 1s ease-in;
+    background-color: yellow;
+}
