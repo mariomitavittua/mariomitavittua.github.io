@@ -7,8 +7,15 @@
 <title>Super Mario Kart</title>
 
 <link rel="icon" type="image/vnd.microsoft.icon"
-     href="..image\favicon.ico" />
+     href="..\image\favicon.ico" />
 <link rel="stylesheet" href="..\index.css">
+          
+<script>
+if (fileName[0].endsWith("#mc15laps")) {
+
+    document.getElementById("mc15laps").style.backgroundColor = "yellow";
+}
+</script>
      
 </head>
  
@@ -28,12 +35,18 @@ table {
 }
 
 </style>    
-     
+       
+<script>
+if (fileName[0].endsWith("#mc15laps")) {
+
+    document.getElementById("mc15laps").style.backgroundColor = "yellow";
+}
+</script>   
 
 <body>  
      
 <script>
-if(fileName[0].endsWith("#mc15laps")) {
+if (fileName[0].endsWith("#mc15laps")) {
 
     document.getElementById("mc15laps").style.backgroundColor = "yellow";
 }
