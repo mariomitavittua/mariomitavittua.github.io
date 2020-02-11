@@ -9,17 +9,17 @@ body {
 a,p,h2,h1 {
 		font-family: smk;	
 }
+ h1 {
+		font-size:48;
+}
  h2 {
-		font-size:32;
+		font-size:40;
 }
  p {
-		font-size:28;
+		font-size:32;
 }
  a {
-		font-size:28;
-}
- h1 {
-		font-size:36;
+		font-size:32;
 }
 .videobox {
   background-color: white;
