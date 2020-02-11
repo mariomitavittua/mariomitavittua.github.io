@@ -7,19 +7,19 @@ body {
 		text-align:center;
 }
 a,p,h2,h1,th {
-		font-family: smk;	
+		font-family: emulogic;	
 }
  h1 {
-		font-size:48;
+		font-size:36;
 }
  h2 {
-		font-size:40;
+		font-size:32;
 }
  p {
-		font-size:32;
+		font-size:28;
 }
  a {
-		font-size:32;
+		font-size:28;
 }
 .videobox {
   background-color: white;
@@ -72,6 +72,6 @@ a:target{
     background-color: yellow;
 }
 @font-face {
-   font-family: smk;
-   src: url(smk.ttf);
+   font-family: emulogic;
+   src: url(emulogic.TTF);
 }
