@@ -6,7 +6,7 @@ body {
 .center {
 		text-align:center;
 }
-a,p,h2,h1 {
+a,p,h2,h1,th {
 		font-family: smk;	
 }
  h1 {
