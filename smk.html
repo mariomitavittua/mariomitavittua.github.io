@@ -33,17 +33,19 @@ table {
    max-width: 900px;
    max-height: auto;
 }
-.target {
-    width:50%;
-    height:200px;
-    border:solid black 1px; 
-    background-color: yellow;
-}
 </style>
-    
+
+     <!--if url = "tuukkapenttinen/smk#mc1" {
+     mc1.setAttribute("bgcolor","yellow");
+} -->
+     
 <script>
-var srch = "#mc1"; // change to window.location.search;
-document.querySelector(srch).style.background = "yellow";
+var url = 'tuukkapenttinen/smk#mc1',
+    hash = url.split('#')[1];
+
+if (hash) {
+     mc1.setAttribute("bgcolor","yellow");
+} 
 </script>      
      
 <body>
