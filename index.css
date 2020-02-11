@@ -7,7 +7,7 @@ body {
 		text-align:center;
 }
 a,p,h2,h1 {
-		font-family: emulogic;	
+		font-family: SUPER-MARIO-KART;	
 }
  h1 {
 		font-size:36;
@@ -72,6 +72,6 @@ a:target{
     background-color: yellow;
 }
 @font-face {
-   font-family: emulogic;
-   src: url(emulogic.TTF);
+   font-family: SUPER-MARIO-KART;
+   src: url(SUPER-MARIO-KART.TTF);
 }
