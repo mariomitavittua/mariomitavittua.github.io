@@ -33,23 +33,9 @@ table {
    max-width: 900px;
    max-height: auto;
 }
-</style>
-
-     <!--if url = "tuukkapenttinen/smk#mc1" {
-     mc1.setAttribute("bgcolor","yellow");
-} -->
+</style>    
      
-<script>
-var url = 'http://tuukkapenttinen.tk/smk#mc1',
-    hash = url.split('#')[1];
-
-if (hash == "mc1") {
-     mc1.setAttribute("bgcolor","yellow");
-} 
-</script>      
-     
-<body>
-    
+<body>  
      
 <div class="center">
      
@@ -69,7 +55,7 @@ if (hash == "mc1") {
 <table id="coloreds" align="center" width="900px">
 <thead>
      
-<tr id="cats">
+<tr>
     <th>TRACK</th>
     <th>COURSE</th>
     <th>LAP</th>
@@ -77,8 +63,8 @@ if (hash == "mc1") {
      
 <tr id="mc1">
     <th onclick="window.location='http://www.mariokart64.com/smk/coursep.php?cid=0';">Mario Circuit 1</th>
-    <td onclick="window.location='/smk/mc1_10738';">1'07"38 ✔</td>
-    <td>0'13"11</td>
+    <td id="mc15laps" onclick="window.location='/smk/mc1_10738';">1'07"38 ✔</td>
+    <td id="mc1flap" >0'13"11</td>
 </tr>
      
 <tr>
