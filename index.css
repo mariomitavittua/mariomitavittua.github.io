@@ -6,6 +6,9 @@ body {
 .center {
 		text-align:center;
 }
+a,p,h2,h1 {
+		font-family: emulogic;	
+}
  h2 {
 		font-size:32;
 }
