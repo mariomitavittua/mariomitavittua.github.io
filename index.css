@@ -7,7 +7,7 @@ body {
 		text-align:center;
 }
 a,p,h2,h1 {
-		font-family: emulogic;	
+		font-family: smk;	
 }
  h2 {
 		font-size:32;
@@ -72,6 +72,6 @@ a:target{
     background-color: yellow;
 }
 @font-face {
-   font-family: emulogic;
-   src: url(smk.TTF);
+   font-family: smk;
+   src: url(smk.ttf);
 }
