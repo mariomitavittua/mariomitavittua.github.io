@@ -1,5 +1,7 @@
 body {
 		background-image: url("image/back.jpg");
+		background-position: center;
+		background-attachment: fixed;
 }
 .center {
 		text-align:center;
