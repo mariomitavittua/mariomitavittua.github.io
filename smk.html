@@ -9,13 +9,6 @@
 <link rel="icon" type="image/vnd.microsoft.icon"
      href="..\image\favicon.ico" />
 <link rel="stylesheet" href="..\index.css">
-          
-<script>
-if (fileName[0].endsWith("#mc15laps")) {
-
-    document.getElementById("mc15laps").style.backgroundColor = "yellow";
-}
-</script>
      
 </head>
  
@@ -37,20 +30,35 @@ table {
 </style>    
        
 <script>
-if (fileName[0].endsWith("#mc15laps")) {
+if (fileName[0].endsWith("#mc1")) {
 
-    document.getElementById("mc15laps").style.backgroundColor = "yellow";
+    document.getElementById("mc1").style.backgroundColor = "yellow";
+     
+} else {
+    document.getElementById("mc1").style.backgroundColor = "white";
 }
-</script>   
+</script>        
+<script>
+if (fileName[0].endsWith("#mc1all")) {
+
+    document.getElementById("mc1all").style.backgroundColor = "yellow";
+     
+} else {
+    document.getElementById("mc1all").style.backgroundColor = "white";
+}
+</script>          
+<script>
+if (fileName[0].endsWith("#mc1flap")) {
+
+    document.getElementById("mc1flap").style.backgroundColor = "yellow";
+     
+} else {
+    document.getElementById("mc1flap").style.backgroundColor = "white";
+}
+</script> 
 
 <body>  
-     
-<script>
-if (fileName[0].endsWith("#mc15laps")) {
 
-    document.getElementById("mc15laps").style.backgroundColor = "yellow";
-}
-</script>
 
 <div class="center">
      
@@ -59,7 +67,9 @@ if (fileName[0].endsWith("#mc15laps")) {
 <h2>Character: Bowser</h2>
 <p>✔ = has video</p>     
      
-<a href="#mc15laps">mc1 5laps</a>
+<a href="#mc1">mc1</a>
+<a href="#mc1all">mc1 all laps</a>
+<a href="#mc1flap">mc1 flap</a>
 
 </div>
 
