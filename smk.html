@@ -10,10 +10,12 @@
      href="..image\favicon.ico" />
 <link rel="stylesheet" href="..\index.css">
 
+<!--
 <script>
 var srch = "#mc1"; // change to window.location.search;
 document.querySelector(srch).style.background = "yellow";
 </script>      
+-->
      
 </head>
  
@@ -30,6 +32,12 @@ table {
    height: auto;
    max-width: 900px;
    max-height: auto;
+}
+.target {
+    width:50%;
+    height:200px;
+    border:solid black 1px; 
+    background-color: yellow;
 }
 </style>
     
@@ -65,7 +73,7 @@ document.querySelector(srch).style.background = "yellow";
     <th>LAP</th>
 </tr>
      
-<tr id="mc1">
+<tr class="target" id="mc1">
     <th onclick="window.location='http://www.mariokart64.com/smk/coursep.php?cid=0';">Mario Circuit 1</th>
     <td onclick="window.location='/smk/mc1_10738';">1'07"38 ✔</td>
     <td>0'13"11</td>
