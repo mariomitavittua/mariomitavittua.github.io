@@ -81,3 +81,32 @@ a:target{
    font-family: SUPER-MARIO-KART;
    src: url(SUPER-MARIO-KART.TTF);
 }
+
+
+
+
+.mc1 th {
+     	 background-image:  url("image/track/mc1.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
+.dp1 th {
+     	 background-image:  url("image/track/dp1.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
+.gv1 th {
+     	 background-image:  url("image/track/gv1.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
+.bc1 th {
+     	 background-image:  url("image/track/bc1.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
+.mc2 th {
+     	 background-image:  url("image/track/mc2.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
