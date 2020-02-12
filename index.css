@@ -110,3 +110,80 @@ a:target{
 	 background-position: center;
 	 background-attachment: fixed;
 }
+
+
+.ci1 th {
+     	 background-image:  url("image/track/ci1.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
+.gv2 th {
+     	 background-image:  url("image/track/gv2.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
+.dp2 th {
+     	 background-image:  url("image/track/dp2.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
+.bc2 th {
+     	 background-image:  url("image/track/bc2.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
+.mc3 th {
+     	 background-image:  url("image/track/mc3.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
+.kb1 th {
+     	 background-image:  url("image/track/kb1.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
+.ci2 th {
+     	 background-image:  url("image/track/ci2.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
+.vl1 th {
+     	 background-image:  url("image/track/vl1.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
+.bc3 th {
+     	 background-image:  url("image/track/bc3.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
+.mc4 th {
+     	 background-image:  url("image/track/mc4.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
+.dp3 th {
+     	 background-image:  url("image/track/dp3.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
+.kb2 th {
+     	 background-image:  url("image/track/kb2.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
+.gv3 th {
+     	 background-image:  url("image/track/gv3.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
+.vl2 th {
+     	 background-image:  url("image/track/vl2.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
+.rr th {
+     	 background-image:  url("image/track/rr.png");
+	 background-position: center;
+	 background-attachment: fixed;
+}
