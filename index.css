@@ -12,7 +12,7 @@ body {
 .right {
 		text-align:right;
 }
-a,p,h2,h1 {
+td, th, .smkfont {
 		font-family: SUPER-MARIO-KART;	
 }
  h1 {
