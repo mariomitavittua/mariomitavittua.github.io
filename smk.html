@@ -41,45 +41,7 @@ td, th {
 .hotbar {
   font-size:12
 }
-.day, .night {
-  text-align: center;
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-  font-size: 30px;
-  font-weight: bold;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.day {
-  background-image: url(../image/smk_bg.png);
-}
-
-.night {
-  background-image: url(../image/mk64_bg.png);
-}
 </style>    
-
-<script>     
-     jQuery(document).ready(function( $ ){
-
-     var thehours = new Date().getHours();
-     var themessage = ("test")
-	var day = ('Good morning');
-	var night = ('Good evening');
-
-	if (thehours >= 0 && thehours < 12) {
-		themessage = morning;
-    $("#greeting").addClass("day");
-
-	} else if (thehours >= 17 && thehours < 24) {
-		themessage = evening;
-    $("#greeting").addClass("night");
-	}
-
-	$('#greeting').append(themessage);
-  
-});
-</script>
      
 <body>  
 
