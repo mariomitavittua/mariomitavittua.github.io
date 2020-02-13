@@ -127,6 +127,7 @@ th:hover ,td:hover {
 .navi {
   overflow: hidden;
   background-color: gray;
+  text-align: center;
 }
 
 .navi a {
@@ -141,14 +142,17 @@ th:hover ,td:hover {
 .navi a:hover {
   background-color: cyan;
   color: black;
+  text-align: center;
 }
 
 .navi a.current {
   background-color: green;
   color: white;
+  text-align: center;
 }
 
 .navi a {
   background-color: dark-grey;
   color: white;
+  text-align: center;
 }
