@@ -106,15 +106,6 @@ a:target{
     background-color: #003BCE;
 }
 
-/*
-.separ4:hover .separ3 {
-    background-color: #003BCE;
-}
-.separ3:hover .separ4{
-    background-color: #003BCE;
-}*/
-
-
 th:hover ,td:hover {
 	color: white;	
 	background-color: black;
@@ -124,4 +115,31 @@ th:hover ,td:hover {
 }
 .hotbar {
   font-size:12
+}
+.current {
+  color: green;
+}
+
+.navi {
+  overflow: hidden;
+  background-color: gray;
+}
+
+.navi a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 4px 4px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navi a:hover {
+  background-color: pink;
+  color: black;
+}
+
+.navi a.current {
+  background-color: green;
+  color: white;
 }
