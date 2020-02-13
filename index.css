@@ -81,6 +81,40 @@ a:target{
    font-family: SUPER-MARIO-KART;
    src: url(SUPER-MARIO-KART.TTF);
 }
+.separ {
+     background-color: #A8FFED;     
+}
+.separ2 {
+     background-color: #E7E7E7;     
+}
+.separ3 {
+     background-color: white;     
+}
+.separ4 {
+     background-color: #cccccc;     
+}
+.separ2:hover, .separ:hover .separ2 {
+    background-color: #00CE09;
+}
+.separ2:hover, .separ:hover {
+    background-color: #00CE09;
+}
+.separ4:hover, .separ3:hover .separ4 {
+    background-color: #003BCE;
+}
+.separ4:hover, .separ3:hover {
+    background-color: #003BCE;
+}
+th:hover ,td:hover {
+	color: white;	
+	background-color: black;
+}
+.flip {
+  transform: scaleX(-1);
+}
+.hotbar {
+  font-size:12
+}
 
 /*
 
