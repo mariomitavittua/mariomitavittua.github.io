@@ -2,6 +2,7 @@ body {
 		background-image: url("image/back.jpg");
 		background-position: center;
 		background-attachment: fixed;
+  		margin: 0;
 }
 .headers {
      background-color: #cccccc;     
