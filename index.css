@@ -86,16 +86,16 @@ a:target{
    src: url(SUPER-MARIO-KART.TTF);
 }
 .separ {
-     background-color: #A8FFED;     
+     background-color: #FFEE94;     
 }
 .separ2 {
-     background-color: #E7E7E7;     
+     background-color: #FFEE94;     
 }
 .separ3 {
-     background-color: white;     
+     background-color: #ADFF83;     
 }
 .separ4 {
-     background-color: #cccccc;     
+     background-color: #ADFF83;     
 }
 .separ2:hover, .separ:hover .separ2 {
     background-color: #00CE09;
