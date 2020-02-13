@@ -98,21 +98,21 @@ a:target{
 }
 .separ2:hover, .separ:hover {
     background-color: #00CE09;
-} /*
+} 
 .separ4:hover, .separ3:hover .separ4 {
     background-color: #003BCE;
 }
 .separ4:hover, .separ3:hover {
     background-color: #003BCE;
-}*/
+}
 
-
+/*
 .separ4:hover .separ3 {
     background-color: #003BCE;
 }
 .separ3:hover .separ4{
     background-color: #003BCE;
-}
+}*/
 
 
 th:hover ,td:hover {
