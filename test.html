@@ -1,0 +1,66 @@
+<!doctype html>
+<meta charset=utf-8>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Random SMK...</title>
+
+<style>
+h2 {
+  color: white;
+}
+body { 
+		background-image: url("image/smk_bg.png");
+}
+</style>
+
+<link rel="icon" type="image/vnd.microsoft.icon"
+     href="../image/favicon.ico" />
+<link rel="stylesheet" href="../index.css">
+
+</head>
+
+<body onload="random()">
+
+<script type="text/javascript">
+  
+var links = new Array();
+links[0] = "https://www.youtube.com/watch?v=6ZpgYn20Rbo";
+links[0] = "https://www.youtube.com/watch?v=YHSS6x-guLM";
+links[0] = "https://www.youtube.com/watch?v=8VMS7OvVJGY";
+links[0] = "https://www.youtube.com/watch?v=HAMbw_DK35c";
+links[0] = "https://www.youtube.com/watch?v=Jfj5h_dbhW4";
+	
+
+function random() {
+  
+  var i = Math.floor(Math.random() * links.length);
+  
+  parent.location = links[i];
+  return false;
+}
+</script>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+  
+<div class=center>
+
+<h2>Loading...</h2>
+
+</div>
+</div>
+
+</body>
+
+</html>
