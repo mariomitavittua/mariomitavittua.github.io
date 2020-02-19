@@ -168,6 +168,28 @@ th:hover ,td:hover {
   text-align:left;
 }
 .sidetable {
+   height: auto;
+   max-width: auto;
+   min-width: auto;
+   font-size: 12px;
+}
+.box {
+  background-color: white;
+  max-width: 100%;
+  min-width: auto;
+  height: 680px;
+  text-align:center;
+  align: right;
+}
+.headbox {
+  background-color: white;
+  max-width: 100%;
+  min-width: auto;
+  height: 300px;
+  text-align:center;
+  align: right;
+}
+.sidetable {
     text-align: left;
     width: 20%;
     height: 100%;
