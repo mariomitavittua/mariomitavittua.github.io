@@ -98,16 +98,16 @@ a:target{
      background-color: #ADFF83;     
 }
 .separ2:hover, .separ:hover .separ2 {
-    background-color: #00CE09;
+    background-color: cyan;
 }
 .separ2:hover, .separ:hover {
-    background-color: #00CE09;
+    background-color: cyan;
 } 
 .separ4:hover, .separ3:hover .separ4 {
-    background-color: #003BCE;
+    background-color: cyan;
 }
 .separ4:hover, .separ3:hover {
-    background-color: #003BCE;
+    background-color: cyan;
 }
 
 th:hover ,td:hover {
