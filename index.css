@@ -177,7 +177,7 @@ th:hover ,td:hover {
   background-color: white;
   max-width: 100%;
   min-width: auto;
-  height: 680px;
+  height: 100%;
   text-align:center;
   align: right;
 }
