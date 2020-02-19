@@ -19,11 +19,27 @@ body {
 }
 table {
    height: auto;
+   max-width:auto;
+   min-width: auto;
+}
+.sidetable {
+   height: auto;
+   max-width: auto;
+   min-width: auto;
+   font-size: 12px;
 }
 td, th {
      font-family: SUPER-MARIO-KART;    
      color: black;
      font-weight: normal;
+}
+.box {
+  background-color: white;
+  max-width: 100%;
+  min-width: auto;
+  height: auto;
+  text-align:center;
+  align: right;
 }
 </style>    
 
@@ -59,6 +75,8 @@ td, th {
 </div>
      
 <br/>
+     
+<div class=box>	
      
 <table align="right">
 <thead>
@@ -221,8 +239,8 @@ td, th {
 </tbody>
 </table> 
 
-</div>
-    
+
+	
 <table class="sidetable">
 <thead>
      
@@ -247,9 +265,7 @@ td, th {
 </tr>     
 </thead>
 
-</table> 
-
-<br>    
+</table>  
     
 <table class="sidetable">
 <thead>
@@ -259,7 +275,7 @@ td, th {
 </tr>
      
 <tr>
-    <td onclick="window.location='smk';">Super Mario Kart</td>
+    <td class=current onclick="window.location='smk';">Super Mario Kart</td>
 </tr>
     
 <tr>    
@@ -303,13 +319,37 @@ td, th {
 </tr>    
 </thead>
 
+</table>
+ 
+<br>    
+    
+<table class="sidetable">
+<thead>
+     
+<tr>
+    <th class="headers">Me</th>
+</tr>
+     
+<tr>
+    <td onclick="window.location='https://siontea.com';">siontea.com</td>
+</tr>
+    
+<tr>    
+    <td onclick="window.location='https://twitch.tv/sion_510n';">twitch</td>
+</tr>    
+     
+<tr>
+    <td onclick="window.location='https://www.youtube.com/channel/UCAJsCCCMxk2A4dJkqSjMgaA';">Youtube</td>
+</tr>    
+    
+<tr>    
+    <td onclick="window.location='https://twitter.com/sion_510n';">Twitter</td> 
+</tr>    
+</thead>
+
 </table> 
 
-<br/>
-<br/>
-<br/>
-<br/>
-
+</div>
 </body>
 
 </html>
