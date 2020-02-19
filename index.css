@@ -122,7 +122,8 @@ th:hover ,td:hover {
   font-size:12
 }
 .current {
-  color: green;
+  background-color: green;
+  color: white;
 }
 
 .navi {
